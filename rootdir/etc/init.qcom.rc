@@ -571,6 +571,7 @@ service vendor.per_proxy /vendor/bin/pm-proxy
     group system
     disabled
 
+on boot
 service adsprpcd /vendor/bin/adsprpcd
    class main
    user media
